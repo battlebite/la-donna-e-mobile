@@ -1,0 +1,54 @@
+#!/bin/bash
+
+play -n synth .4 sin 250
+play -n synth .4 sin 380
+play -n synth .4 sin 380
+
+for i in {1 2 3}
+do
+  play -n synth .4 sin 630
+  play -n synth .4 sin 630
+  play -n synth .4 sin 630
+  play -n synth .3 sin 750
+  play -n synth .1 sin 630
+  play -n synth .8 sin 560
+
+  play -n synth .4 sin 560
+  play -n synth .4 sin 560
+  play -n synth .4 sin 560
+  play -n synth .3 sin 640
+  play -n synth .1 sin 620
+  play -n synth .8 sin 500
+
+  play -n synth .4 sin 630
+  play -n synth .4 sin 560
+  play -n synth .3 sin 500
+  play -n synth .1 sin 500
+  play -n synth .4 sin 500
+  play -n synth .8 sin 470
+
+  play -n synth .4 sin 560
+  play -n synth .4 sin 500
+  play -n synth .3 sin 420
+  play -n synth .1 sin 420
+  play -n synth .4 sin 420
+  play -n synth .8 sin 370
+done
+  play -n synth .3 sin 420
+  play -n synth .1 sin 470
+  play -n synth .4 sin 420
+  play -n synth .4 sin 420
+  play -n synth .4 sin 560
+  play -n synth .8 sin 420
+
+  # play -n synth .4 sin 520
+  # play -n synth .4 sin 520
+  # play -n synth .4 sin 520
+  # play -n synth .4 sin 720
+  # play -n synth .8 sin 520
+
+  # play -n synth .1 sin 420
+  # play -n synth .05 sin 500
+  # play -n synth .1 sin 560
+  # play -n synth .05 sin 630
+  # play -n synth 1.5 sin 750
